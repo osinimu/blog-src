@@ -24,10 +24,6 @@ BIO = \
 	'''
 	
 AUTHOR_SHORTBIO = u''
-AUTHOR_EMAIL = u'christopherajulo@gmail.com'
-AUTHOR_EMAIL_HASH = md5(AUTHOR_EMAIL).hexdigest()
-TWITTER_USERNAME = u'_fosi'
-GITHUB_USERNAME = u'osisieke'
 
 # During development, we want urls to be relative
 RELATIVE_URLS = True
