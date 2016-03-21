@@ -30,12 +30,18 @@ RELATIVE_URLS = True
 
 DEFAULT_LANG = u'en'
 
+USE_FOLDER_AS_CATEGORY = True
 
 PATH = 'content/'
 
 TIMEZONE = 'Africa/Lagos'
 
 DEFAULT_LANG = u'en'
+THEME = u"dopetrope"
+
+THEME_STATIC_DIR = 'theme'
+
+USE_FOLDER_AS_CATEGORY = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
