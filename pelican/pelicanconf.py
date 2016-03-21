@@ -70,7 +70,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = 200
 
 # Settings for current theme
-THEME = 'dopetrope'
+THEME = u"dopetrope"
 
 MENUITEMS = (
 	('Home', '/'),
