@@ -9,6 +9,15 @@ SITE_TAGLINE = DESCRIPTION
 SITEURL = 'http://osisieke.github.io'
 MAIL = "christopherajulo@gmail.com"
 
+TWITTER_USERNAME = "_fosi"
+
+STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'extra/custom.css']
+
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_TAGS_ON_SIDEBAR = True
+DISPLAY_TAGS_INLINE = True
+
+
 BIO = \
 	u'''
 		<p>Full name: <strong>{name}</strong>.</p>
@@ -37,7 +46,7 @@ PATH = 'content/'
 TIMEZONE = 'Africa/Lagos'
 
 DEFAULT_LANG = u'en'
-THEME = u"dopetrope"
+THEME = u"pelican-bootstrap3"
 
 THEME_STATIC_DIR = 'theme'
 
@@ -49,6 +58,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+TWITTER_CARDS = True
+
+CC_LICENSE = "CC-BY-NC-SA"
 
 
 FILENAME_METADATA='(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)'
@@ -70,28 +83,50 @@ GRAB_ICONS = True
 SOCIAL = (
         ('Twitter', 'http://twitter.com/_fosi'),
         ('goodreads', 'http://goodreads.com/user/'),
-        ('github', 'http://github.com/osisieke'),
           )
+		  
+		  
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
 DEFAULT_PAGINATION = 200
 
+
+
 # Settings for current theme
 THEME = u"dopetrope"
+
+SHOW_ARTICLE_AUTHOR = True
+SHOW_ARTICLE_CATEGORY = True
 
 MENUITEMS = (
 	('Home', '/'),
 	('About', '#about')
 )
 
-ABOUT_TEXT = u'What is all these about'
-ABOUT_IMAGE =  ""
-ABOUT_LINK = "Find out more"
+BOOTSTRAP_FLUID = True
 
-TWITTER_USER = https://twitter.com/_fosi
-GOODREADS_USER =
+FAVICON = 'images/favicon.png'
+
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
+
+ABOUT_ME = u''
+AVATAR =
+
+DISQUS_NO_ID = True
+
+DISQUS_DISPLAY_COUNTS = TRUE
+
 
 SITESUBTITLE = SITE_TAGLINE
 
-COPYRIGHT = False
+ARTICLE_URL = 'blog/{slug}.html'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+TAG_URL = 'tags/{slug}.html'
+TAG_SAVE_AS = 'tags/{slug}.html'
+TAGS_URL = 'tags.html'
+CATEGORY_URL = ('category/{slug}/')
+CATEGORY_SAVE_AS = ('category/{slug}/index.html')
 
 
