@@ -69,7 +69,7 @@ GRAB_ICONS = True
 # Social widget
 SOCIAL = (
         ('Twitter', 'http://twitter.com/_fosi'),
-        ('goodreads', 'http://goodreads.com/user/show/41177369-tosin-damilare-james-animashaun'),
+        ('goodreads', 'http://goodreads.com/user/'),
         ('github', 'http://github.com/osisieke'),
           )
 
@@ -87,8 +87,11 @@ ABOUT_TEXT = u'What is all these about'
 ABOUT_IMAGE =  ""
 ABOUT_LINK = "Find out more"
 
+TWITTER_USER = https://twitter.com/_fosi
+GOODREADS_USER =
+
 SITESUBTITLE = SITE_TAGLINE
 
-COPYRIGHT = "Osisieke"
+COPYRIGHT = False
 
 
