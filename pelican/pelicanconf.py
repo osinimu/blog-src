@@ -17,20 +17,6 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
 
-
-BIO = \
-	u'''
-		<p>Full name: <strong>{name}</strong>.</p>
-		
-		<p>
-		</p>
-		<p>I enjoy reading. I appreciate writing; and I try to be good at this myself. Some other interests include singing, technology, and psychology.
-		</p>
-		<p>In my spare time, I listen to podcasts about different topics ranging from startups to technology, innovations, psychology and more.
-		<br/>
-		<br/><b>Email: </b> christopherajulo [at] gmail [dot] com
-		</p>
-	'''
 	
 AUTHOR_SHORTBIO = u''
 
@@ -82,18 +68,18 @@ GRAB_ICONS = True
 # Social widget
 SOCIAL = (
         ('Twitter', 'http://twitter.com/_fosi'),
-        ('goodreads', 'http://goodreads.com/user/'),
+        ('Goodreads', 'http://goodreads.com/user/'),
           )
 		  
 		  
-DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
 
-DEFAULT_PAGINATION = 200
+DEFAULT_PAGINATION = 20
 
 
 
 # Settings for current theme
-THEME = u"dopetrope"
+THEME = u"pelican-bootstrap3"
 
 SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = True
@@ -107,14 +93,14 @@ BOOTSTRAP_FLUID = True
 
 FAVICON = 'images/favicon.png'
 
-DISPLAY_ARTICLE_INFO_ON_INDEX = True
+DISPLAY_ARTICLE_INFO_ON_INDEX = False
 
 ABOUT_ME = u''
-AVATAR =
+
 
 DISQUS_NO_ID = True
 
-DISQUS_DISPLAY_COUNTS = TRUE
+DISQUS_DISPLAY_COUNTS = True
 
 
 SITESUBTITLE = SITE_TAGLINE
@@ -128,5 +114,7 @@ TAG_SAVE_AS = 'tags/{slug}.html'
 TAGS_URL = 'tags.html'
 CATEGORY_URL = ('category/{slug}/')
 CATEGORY_SAVE_AS = ('category/{slug}/index.html')
+PLUGIN_PATHS = ["pelican-plugins"]
+PLUGINS = ["tipue_search"]
 
 
