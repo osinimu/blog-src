@@ -67,7 +67,7 @@ GRAB_ICONS = True
 # Social widget
 SOCIAL = (
         ('Twitter', 'http://twitter.com/_fosi'),
-        ('Goodreads', 'http://goodreads.com/user/'),
+        ('goodreads', 'www.goodreads.com/user/show/51908460-chris', 'goodreads'),
           )
 		  
 PLUGIN_PATHS = ["pelican-plugins"]
