@@ -17,8 +17,6 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
 
-	
-AUTHOR_SHORTBIO = u''
 
 # During development, we want urls to be relative
 RELATIVE_URLS = True
@@ -39,6 +37,7 @@ THEME_STATIC_DIR = 'theme'
 USE_FOLDER_AS_CATEGORY = True
 
 SHOW_ARTICLE_AUTHOR = True
+
 BOOTSTRAP_THEME = "simplex"
 
 # Feed generation is usually not desired when developing
