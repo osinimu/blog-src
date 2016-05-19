@@ -86,11 +86,6 @@ SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 
-MENUITEMS = (
-	('Home', '/'),
-	('About', '#about')
-)
-
 BOOTSTRAP_FLUID = True
 
 FAVICON = 'images/favicon.png'
