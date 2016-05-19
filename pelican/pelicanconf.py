@@ -91,6 +91,12 @@ BOOTSTRAP_FLUID = True
 FAVICON = 'images/favicon.png'
 
 ABOUT_ME = u''
+MENUITEMS = (
+	('Home', '/'),
+	#(''),
+	#('Being Christian', '/'),
+	('About', '#about'),
+	 )
 
 
 
