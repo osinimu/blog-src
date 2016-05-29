@@ -4,8 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'fosi'
 SITENAME = u'osisieke'
-DESCRIPTION = u"LifePages    <strong>\\</strong>"
-SITE_TAGLINE = DESCRIPTION
+SITELOGO = 140 x 80 
 SITEURL = 'http://osisieke.github.io'
 MAIL = "christopherajulo@gmail.com"
 
