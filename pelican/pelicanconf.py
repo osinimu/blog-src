@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'fosi'
 SITENAME = u'osisieke'
-SITELOGO = 'images/my_site_logo.png'
+SITELOGO = 'images/mysite_logo.jpg'
 SITELOGO_Size = 140 * 80 
 SITEURL = 'http://osisieke.github.io'
 MAIL = "christopherajulo@gmail.com"
@@ -88,8 +88,8 @@ DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 
 BOOTSTRAP_FLUID = True
 
-ABOUT_ME = pass
-AVATAR = pass
+ABOUT_ME = "osisieke"
+
 
 FAVICON = 'images/favicon.png'
 
