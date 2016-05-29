@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'fosi'
 SITENAME = u'osisieke'
 SITELOGO = 'images/mysite_logo.jpg'
-SITELOGO_Size = 140 * 80 
+SITELOGO_SIZE = 14
 SITEURL = 'http://osisieke.github.io'
 MAIL = "christopherajulo@gmail.com"
 
